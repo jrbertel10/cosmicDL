@@ -1,0 +1,23 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('./img/cosmicBackground.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 50vw;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
